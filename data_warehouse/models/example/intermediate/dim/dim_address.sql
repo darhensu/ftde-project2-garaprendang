@@ -6,5 +6,5 @@ SELECT
    staff_id,
    rental_id,
    amount,
-   payment_date
+   payment_date,
 FROM {{ ref('raw_address') }}
