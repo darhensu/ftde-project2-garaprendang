@@ -1,10 +1,11 @@
-{{ config(materialized='table', schema='intermediate')
+{{ config(materialized='table', schema='intermediate') }}
 
 SELECT
-   payment_id,
-   customer_id,
-   staff_id,
-   rental_id,
-   amount,
-   payment_date,
+    address_id,
+    address,
+    address2,
+    district,
+    city_id,
+    postal_code,
+    phone
 FROM {{ ref('raw_address') }}
