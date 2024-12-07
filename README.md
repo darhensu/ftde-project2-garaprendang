@@ -1,10 +1,4 @@
----
-title: "Proyek DBT Hands-On: Digital Skola"
-author: "Tim Garap Rendang"
-date: "`r Sys.Date()`"
----
-
-# Pengantar
+## Proyek DBT Hands-On: Digital Skola
 
 Proyek ini bertujuan untuk mempersiapkan dan mengatur alur kerja menggunakan **Data Build Tool (DBT)** dengan PostgreSQL sebagai database utama. DBT akan digunakan untuk membuat, mengelola, dan mendokumentasikan transformasi data dalam model yang terdiri dari berbagai skema (`raw`, `intermediate`, dan `mart`). Model ini dirancang dengan arsitektur medali untuk memungkinkan analisis data yang lebih efisien.
 
